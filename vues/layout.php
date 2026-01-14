@@ -16,6 +16,12 @@
                 <li>
                     <a href="<?= BASE_URL ?>/index.php?controleur=dashboard&action=index" class="<?= $controllerName === 'dashboard' ? 'active' : '' ?>">Tableau de bord</a>
                 </li>
+                <li>
+                    <a href="<?= BASE_URL ?>/index.php?controleur=categorie&action=index" class="<?= $controllerName === 'categorie' ? 'active' : '' ?>">Catégories</a>
+                </li>
+                <li>
+                    <a href="<?= BASE_URL ?>/index.php?controleur=fournisseur&action=index" class="<?= $controllerName === 'fournisseur' ? 'active' : '' ?>">Fournisseurs</a>
+                </li>
             </ul>
         </aside>
         <main class="main-content">
