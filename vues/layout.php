@@ -17,6 +17,9 @@
                     <a href="<?= BASE_URL ?>/index.php?controleur=dashboard&action=index" class="<?= $controllerName === 'dashboard' ? 'active' : '' ?>">Tableau de bord</a>
                 </li>
                 <li>
+                    <a href="<?= BASE_URL ?>/index.php?controleur=produit&action=index" class="<?= $controllerName === 'produit' ? 'active' : '' ?>">Produits</a>
+                </li>
+                <li>
                     <a href="<?= BASE_URL ?>/index.php?controleur=categorie&action=index" class="<?= $controllerName === 'categorie' ? 'active' : '' ?>">Catégories</a>
                 </li>
                 <li>
