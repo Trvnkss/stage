@@ -25,6 +25,9 @@
                 <li>
                     <a href="<?= BASE_URL ?>/index.php?controleur=fournisseur&action=index" class="<?= $controllerName === 'fournisseur' ? 'active' : '' ?>">Fournisseurs</a>
                 </li>
+                <li>
+                    <a href="<?= BASE_URL ?>/index.php?controleur=mouvement&action=index" class="<?= $controllerName === 'mouvement' ? 'active' : '' ?>">Mouvements Stock</a>
+                </li>
             </ul>
         </aside>
         <main class="main-content">
